@@ -72,7 +72,7 @@
    (align left top) (height 2.54) (position 68.58 -51.64) (rotation 90.0)
   )
   (text ce7c061a-53df-40ad-b553-ffa7f97a2cf2 (layer sym_names) (value "{{NAME}}")
-   (align left bottom) (height 2.54) (position 68.58 -51.64) (rotation 90.0)
+   (align left bottom) (height 2.54) (position 73.66 -59.26) (rotation 90.0)
   )
  )
  (symbol 6cb47f72-e1b4-4a78-a302-913d65852de4
@@ -295,6 +295,9 @@
    (from (symbol 6cb47f72-e1b4-4a78-a302-913d65852de4) (pin d7b76c40-34af-4b4d-8a0d-61f837f4be5e))
    (to (junction bfea0c9d-c73c-4301-aadc-6e8e528c2428))
   )
+ )
+ (text 16a00309-20ba-434a-8919-a6905245bf20 (layer sch_comments) (value "User Temperature Control")
+  (align left bottom) (height 5.0) (position 38.1 -7.62) (rotation 0.0)
  )
  (text 5547c41a-d9ea-4175-9fc0-b361af7ec10a (layer sch_comments) (value "+5v")
   (align left bottom) (height 2.0) (position -2.54 -38.1) (rotation 0.0)
