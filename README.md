@@ -5,6 +5,15 @@ Create your own Danfoss controller with this project. I found this 12v camping f
 
 WARNING: Im not an expert in electronics, just a novice tinkerer. The schematics and code provided here should not be trusted. You have been warned!
 
+Components used:
+- Arduino board (currently Uno)
+- 10k 
+- 2 x 5v arduino relay modules (Check AliExpress)
+- DC DC Buck converter step down module - LM2526
+- DS18B20 temperature sensor probe.
+- 128X32 LCD LED Display 0.91 (Replacing the original screen)
+- Existing temperature control buttons
+
 ![Danfoss electrical interface](./danfos_motor_interface.jpeg?raw=true "interface")
 
 Danfoss Diagram can be found here: https://www.keoghsmarine.com.au/image/catalog/101N0510_Diagram.jpg
