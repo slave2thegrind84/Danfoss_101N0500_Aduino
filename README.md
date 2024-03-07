@@ -17,8 +17,8 @@ WARNING: Im not an expert in electronics, just a novice tinkerer. The schematics
 
 # Control board
 
-![UserControl Front](./UserControlFront.jepg?raw=true "front")
-![UserControl Back](./UserControlBack.jpeg "back")
+![UserControl Front](./UserControlFront.jpeg?raw=true "front")
+![UserControl Back](./UserControlBack.jpeg?raw=true "back")
 
 ## Preparation
 I re-used the input control board and its wiring harness. I de-soldered the display and replaced it with the new LCD screen. Re-using the wiring harness and connector powered the original board and microcontroller, resulting in active circuits. I just desoldered all the original components. I might replace this board later with a custom built one.
