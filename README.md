@@ -22,12 +22,12 @@ I re-used the input control board and its wiring harness. I de-soldered the disp
 
 
 ## Wiring Harness
-Red = GND 	(yes, its backwards)
-Black = +5v
-Yellow = button array
-White =  LCD (SCL?)
-Blue = LCD (SDA?)
-Brown = Green LED
+- Red = GND 	(yes, its backwards)
+- Black = +5v
+- Yellow = button array
+- White =  LCD (SCL?)
+- Blue = LCD (SDA?)
+- Brown = Green LED
 
 
 ## Buttons
