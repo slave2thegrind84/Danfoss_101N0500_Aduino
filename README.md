@@ -17,9 +17,18 @@ WARNING: Im not an expert in electronics, just a novice tinkerer. The schematics
 
 # Control board
 
-
 ## Preparation
 I re-used the input control board and its wiring harness. I de-soldered the display and replaced it with the new LCD screen. Re-using the wiring harness and connector powered the original board and microcontroller, resulting in active circuits. I just desoldered all the original components. I might replace this board later with a custom built one.
+
+
+## Wiring Harness
+Red = GND 	(yes, its backwards)
+Black = +5v
+Yellow = button array
+White =  LCD (SCL?)
+Blue = LCD (SDA?)
+Brown = Green LED
+
 
 ## Buttons
 I built a resister ladder for the 4 buttons. This means I only needed a single analog input to handle input from 4 different buttons.
