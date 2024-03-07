@@ -39,7 +39,8 @@ I built a resister ladder for the 4 buttons. This means I only needed a single a
 
 # Main Board
 
-![MainBoard_Schematic](./images/MainBoardStepdown.png?raw=true "stepdown")
+![MainBoard_Schematic](./images/MainBoardSchematic.png?raw=true "stepdown")
+![MainBoard_Stepdown](./images/MainBoardStepdown.png?raw=true "stepdown")
 
 # References
 
