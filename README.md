@@ -37,7 +37,9 @@ I built a resister ladder for the 4 buttons. This means I only needed a single a
 ![UserControl Front](./images/UserControlFront.jpeg?raw=true "front")
 ![UserControl Back](./images/UserControlBack.jpeg?raw=true "back")
 
+#Main Board
 
+![MainBoard_Schematic](./images/MainBoardStepdown.png?raw=true "stepdown")
 
 # References
 
