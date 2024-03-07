@@ -9,7 +9,9 @@ I found an dumped 12v camping fridge on the side of the road. It worked for a sh
 # The Fridge
 At the heart of the fridge is a Danfoss 101N500 module and compressor. This itself has a [pin out](./images/danfos_motor_interface.jpeg) and provides various programming options. You can also find a schematic for the module [here](https://www.keoghsmarine.com.au/image/catalog/101N0510_Diagram.jpg).
 
-There is a mainboard to control the module and compressor and also interfaces with the user temperature control with LCD, the lid light and the fan.
+The Danfoss module and compressor has some neat features built into it. For example it will work on 240v or 12v. The Evakool model comes with a battery saver feature and fuse. These will come in handy later. I love the fact that I can take 12v directly from the module for use on my new mainboard with a stepdown in voltage. 
+
+There is a mainboard to control the module and compressor and also interfaces with the user temperature control with LCD, the lid light and the fan. 
 
 The user control has 4 buttons, 2 LED's and a display. It connects to the mainboard using a wiring harness of 6 wires. On this PCB is a chip and other basic components.
 
