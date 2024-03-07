@@ -34,6 +34,7 @@ I re-used the input control board and its wiring harness. I de-soldered the disp
 I built a resister ladder for the 4 buttons. This means I only needed a single analog input to handle input from 4 different buttons.
 
 ## Images
+![User Control Schematic](./images/UserControlSchematic.jpeg?raw=true "schematic")
 ![UserControl Front](./images/UserControlFront.jpeg?raw=true "front")
 ![UserControl Back](./images/UserControlBack.jpeg?raw=true "back")
 
