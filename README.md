@@ -17,8 +17,8 @@ WARNING: Im not an expert in electronics, just a novice tinkerer. The schematics
 
 # Control board
 
-![UserControl Front](./UserControlFront.jpeg?raw=true "front")
-![UserControl Back](./UserControlBack.jpeg?raw=true "back")
+![UserControl Front](./images/UserControlFront.jpeg?raw=true "front")
+![UserControl Back](./images/UserControlBack.jpeg?raw=true "back")
 
 ## Preparation
 I re-used the input control board and its wiring harness. I de-soldered the display and replaced it with the new LCD screen. Re-using the wiring harness and connector powered the original board and microcontroller, resulting in active circuits. I just desoldered all the original components. I might replace this board later with a custom built one.
@@ -31,7 +31,7 @@ I built a resister ladder for the 4 buttons. This means I only needed a single a
 
 # References
 
-![Danfoss electrical interface](./danfos_motor_interface.jpeg?raw=true "interface")
+![Danfoss electrical interface](./images/danfos_motor_interface.jpeg?raw=true "interface")
 
 Danfoss Diagram can be found here: https://www.keoghsmarine.com.au/image/catalog/101N0510_Diagram.jpg
 
