@@ -50,9 +50,6 @@ int backToStatusTimeout=100;
 
 int DisplayMode = DISPLAY_MODE_STATUS;
 
-
-
-
 int current_temp=100;
 int target_temp=20;
 
@@ -88,7 +85,6 @@ void loop() {
   CheckButtons();
 
   UpdateScreen(0);
-
 
   // temp read cycle. We dont need to read the temp every loop
   if(tempReadDelayCount > tempReadDelay) {
@@ -133,12 +129,11 @@ void CheckButtons()
   int sensorValue = analogRead(BUTTONS);
   int reading=0;
   
-  //Serial.println(sensorValue);
   // check button ladder logic
-  if(sensorValue > 200 && sensorValue < 240) {reading=1;}
-  if(sensorValue > 240 && sensorValue < 280) {reading=2;};
-  if(sensorValue > 300 && sensorValue < 400) {reading=3;};
-  if(sensorValue > 500 && sensorValue < 600) {reading=4;};
+  if(sensorValue > 200 && sensorValue < 240) {reading=BUTTON_UP;}
+  if(sensorValue > 240 && sensorValue < 280) {reading=BUTTON_DOWN;};
+  if(sensorValue > 300 && sensorValue < 400) {reading=BUTTON_ECO;};
+  if(sensorValue > 500 && sensorValue < 600) {reading=BUTTON_ONOFF;};
   if(sensorValue > 1000) {reading=0;};
   
   if(reading != lastButtonState) {
@@ -162,15 +157,10 @@ void CheckButtons()
 
 void buttonPress(int button)
 {
-  //char buffer[40];
-  //sprintf(buffer, "Button %d pressed", button);
-  Serial.println("buttonPress");
-
 
   if(DisplayMode == DISPLAY_MODE_SETTEMP) {
     backToStatusCounter=0;
   }
-
   if(DisplayMode == DISPLAY_MODE_SCREENSAVER) {
     DisplayMode = DISPLAY_MODE_STATUS;
     //reset screensaver count
@@ -181,7 +171,6 @@ void buttonPress(int button)
     // switch to set temp mode
     DisplayMode = DISPLAY_MODE_SETTEMP;
   }
-
   if (button == BUTTON_UP) {
     target_temp++;
   }
@@ -194,15 +183,10 @@ void buttonPress(int button)
   }
   
   screensaverCount=0;
-  
-
 }
 
 void UpdateScreen(int v) {
-
-
   display.clearDisplay();
-  
 
   if(DisplayMode == DISPLAY_MODE_STATUS) {
     display.setCursor(0, 0);            // Start at top-left corner
@@ -210,7 +194,6 @@ void UpdateScreen(int v) {
     display.setTextColor(WHITE);
 
     display.println(int(current_temp));
-    
   }
 
   if(DisplayMode == DISPLAY_MODE_SETTEMP) {
