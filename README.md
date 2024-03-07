@@ -16,10 +16,22 @@ WARNING: Im not an expert in electronics, just a novice tinkerer. The schematics
 - Existing temperature control buttons
 
 # Control board
+
+![UserControl Front](./UserControlFront.jepg?raw=true "front")
+![UserControl Back](./UserControlBack.jpeg "back")
+
+## Preparation
 I re-used the input control board and its wiring harness. I de-soldered the display and replaced it with the new LCD screen. Re-using the wiring harness and connector powered the original board and microcontroller, resulting in active circuits. I just desoldered all the original components. I might replace this board later with a custom built one.
+
+## Buttons
+I built a resister ladder for the 4 buttons. This means I only needed a single analog input to handle input from 4 different buttons.
+
+
+
 
 # References
 
 ![Danfoss electrical interface](./danfos_motor_interface.jpeg?raw=true "interface")
 
 Danfoss Diagram can be found here: https://www.keoghsmarine.com.au/image/catalog/101N0510_Diagram.jpg
+
